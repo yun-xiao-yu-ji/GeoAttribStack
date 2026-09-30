@@ -1,0 +1,26 @@
+column,role,description
+Id,identifier,Sample identifier.
+LS_rate,target,Land-subsidence rate used as the response variable.
+Ag_Den,predictor,Agricultural density indicator.
+DEM,covariate,Digital elevation model value.
+BLT,predictor,Building-related or built-up layer thickness indicator used in the manuscript.
+b2_BLT,covariate,Additional built-up layer variable retained in the modelling table.
+Compre_L2,covariate,Compressible-layer component variable.
+Compre_L3,covariate,Compressible-layer component variable.
+Compre_L4,covariate,Compressible-layer component variable.
+Compress,predictor,Compressible layer thickness used as a manuscript predictor.
+Compre_L1,covariate,Compressible-layer component variable.
+WorldPop,covariate,Population-related spatial covariate.
+Slope,covariate,Terrain slope.
+PRE1,covariate,Precipitation-related covariate.
+PDSI,covariate,Palmer Drought Severity Index or drought-related covariate.
+NL,covariate,Nighttime-light covariate.
+NDVI,covariate,Normalized Difference Vegetation Index.
+LST,covariate,Land surface temperature.
+LON,coordinate,Longitude.
+LAT,coordinate,Latitude.
+River_Distance,predictor,Distance to river.
+Road_Distance,predictor,Distance to road.
+hccv_PRE_1,covariate,Precipitation-related covariate.
+PRE,predictor,Annual mean precipitation used as a manuscript predictor.
+

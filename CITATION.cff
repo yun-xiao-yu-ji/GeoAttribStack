@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite the archived GeoAttribStack release and the associated manuscript."
+title: "GeoAttribStack spatial-confirmation reproducibility package"
+type: software
+authors:
+  - family-names: Liu
+    given-names: Yunxiao
+  - family-names: Gao
+    given-names: Mingliang
+  - family-names: Gong
+    given-names: Huili
+  - family-names: Shi
+    given-names: Min
+  - family-names: Zhu
+    given-names: Lin
+  - family-names: Han
+    given-names: Yujia
+  - family-names: Guan
+    given-names: Huayu
+  - family-names: Wang
+    given-names: Jie
+  - family-names: Shen
+    given-names: Rong
+  - family-names: Chen
+    given-names: Zheng
+version: 2.0.0
+date-released: 2026-09-25
+license: MIT
+keywords:
+  - GeoAttribStack
+  - spatial prediction
+  - stacking ensemble
+  - SHAP
+  - conformal prediction
+  - land subsidence

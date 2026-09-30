@@ -1,0 +1,25 @@
+{
+  "framework": "GeoAttribStack",
+  "module": "Attribution-informed Reliability Controller",
+  "random_seed": 42,
+  "confirmation_schemes": [
+    "anti_diagonal_bands",
+    "radial_rings"
+  ],
+  "outer_folds_per_scheme": 5,
+  "attribution_representation": "Per-model SHAP mean-centering followed by L1 normalization",
+  "candidate_regime_counts": [2, 3, 4, 5, 6],
+  "candidate_temperatures": [0.35, 0.7, 1.4, 2.8],
+  "inner_selection_objective": "0.35 * mean spatial RMSE + 0.65 * worst spatial RMSE",
+  "simplex_regularization": 0.015,
+  "conformal_alpha": 0.1,
+  "normalized_score_beta": 0.5,
+  "primary_uncertainty_method": "adaptive normalized spatial cross-conformal prediction",
+  "sensitivity_uncertainty_method": "worst-inner-spatial-group normalized conformal calibration",
+  "error_scale_model": {
+    "type": "RandomForestRegressor",
+    "n_estimators": 300,
+    "max_depth": 8,
+    "min_samples_leaf": 10
+  }
+}
